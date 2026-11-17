@@ -38,7 +38,7 @@ Supervisor options 是**唯一事實來源**：在 GUI 存的設定會出現在 
 
 1. 把這個 repository 加入 Home Assistant add-on 商店：
 
-   [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FWOOWTECH%2FWoow_ha_cloudflare_tunnel_webgui)
+   [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FWOOWTECH%2FWoow_ha_cf_tunnel_webgui)
 
    或手動：**設定 → 附加元件 → 附加元件商店 → ⋮ → 儲存庫**，加入
    `https://github.com/WOOWTECH/Woow_ha_cf_tunnel_webgui`
