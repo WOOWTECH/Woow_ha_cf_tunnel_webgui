@@ -40,10 +40,10 @@ save in the GUI shows up on the HA add-on configuration page and vice versa.
 
 1. Add this repository to your Home Assistant add-on store:
 
-   [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FWOOWTECH%2FWoow_ha_cloudflare_tunnel_webgui)
+   [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FWOOWTECH%2FWoow_ha_cf_tunnel_webgui)
 
    Or manually: **Settings → Add-ons → Add-on Store → ⋮ → Repositories** and
-   add `https://github.com/WOOWTECH/Woow_ha_cloudflare_tunnel_webgui`
+   add `https://github.com/WOOWTECH/Woow_ha_cf_tunnel_webgui`
 
 2. Install the **Woow Cloudflared** add-on and start it.
 
@@ -132,9 +132,9 @@ MIT — see [LICENSE.md](LICENSE.md).
 The tunnel core is the work of [homeassistant-apps/app-cloudflared][upstream]
 (originally by [Tobias Brenner][brenner-tobias]); the Web GUI is by
 [WOOWTECH](https://github.com/WOOWTECH), based on
-[Woow_cloudflare_tunnel_webgui][woow-standalone] (the standalone
+[Woow_podman_cf_tunnel_webgui][woow-standalone] (the standalone
 Docker/Podman variant of this GUI).
 
 [upstream]: https://github.com/homeassistant-apps/app-cloudflared
 [brenner-tobias]: https://github.com/brenner-tobias
-[woow-standalone]: https://github.com/WOOWTECH/Woow_cloudflare_tunnel_webgui
+[woow-standalone]: https://github.com/WOOWTECH/Woow_podman_cf_tunnel_webgui

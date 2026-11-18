@@ -38,10 +38,10 @@ Supervisor options 是**唯一事實來源**：在 GUI 存的設定會出現在 
 
 1. 把這個 repository 加入 Home Assistant add-on 商店：
 
-   [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FWOOWTECH%2FWoow_ha_cloudflare_tunnel_webgui)
+   [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FWOOWTECH%2FWoow_ha_cf_tunnel_webgui)
 
    或手動：**設定 → 附加元件 → 附加元件商店 → ⋮ → 儲存庫**，加入
-   `https://github.com/WOOWTECH/Woow_ha_cloudflare_tunnel_webgui`
+   `https://github.com/WOOWTECH/Woow_ha_cf_tunnel_webgui`
 
 2. 安裝 **Woow Cloudflared** add-on 並啟動。
 
@@ -122,9 +122,9 @@ MIT——見 [LICENSE.md](LICENSE.md)。
 通道本體來自 [homeassistant-apps/app-cloudflared][upstream]（原作者
 [Tobias Brenner][brenner-tobias]）；Web GUI 由
 [WOOWTECH](https://github.com/WOOWTECH) 開發，基於
-[Woow_cloudflare_tunnel_webgui][woow-standalone]（本 GUI 的獨立
+[Woow_podman_cf_tunnel_webgui][woow-standalone]（本 GUI 的獨立
 Docker/Podman 版本）。
 
 [upstream]: https://github.com/homeassistant-apps/app-cloudflared
 [brenner-tobias]: https://github.com/brenner-tobias
-[woow-standalone]: https://github.com/WOOWTECH/Woow_cloudflare_tunnel_webgui
+[woow-standalone]: https://github.com/WOOWTECH/Woow_podman_cf_tunnel_webgui

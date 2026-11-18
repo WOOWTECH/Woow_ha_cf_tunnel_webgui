@@ -7,7 +7,7 @@ breaking_versions:
 slug: cloudflared
 description: "Use a Cloudflare Tunnel to remotely
   connect to Home Assistant without opening any ports — now with a Web GUI"
-url: "https://github.com/WOOWTECH/Woow_ha_cloudflare_tunnel_webgui"
+url: "https://github.com/WOOWTECH/Woow_ha_cf_tunnel_webgui"
 image: "ghcr.io/woowtech/{arch}-addon-cloudflared-webgui"
 startup: services
 init: false

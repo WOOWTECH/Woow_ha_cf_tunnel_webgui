@@ -59,7 +59,7 @@ jobs:
             --platform=linux/amd64 --build-arg BUILD_ARCH=amd64 \
             --build-arg BUILD_VERSION="$CANDIDATE_VERSION" \
             --build-arg BUILD_REF="$SOURCE_SHA" \
-            --build-arg BUILD_REPOSITORY=WOOWTECH/Woow_ha_cloudflare_tunnel_webgui \
+            --build-arg BUILD_REPOSITORY=WOOWTECH/Woow_ha_cf_tunnel_webgui \
             --build-arg BUILD_NAME='Woow Cloudflared HA11 candidate' \
             --build-arg BUILD_DESCRIPTION='Isolated owned-slot acceptance candidate' \
             --build-arg BUILD_DATE="$(git -C source show -s --format=%cI "$SOURCE_SHA")" \
