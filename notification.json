@@ -11,7 +11,7 @@
       "source_path": "cloudflared",
       "config_file": "config.yaml",
       "config_sha256": "sha256:ddd23b227ff8c2b95d1b156771c4905bcbd96f87af347c760f59b21490f0cc72",
-      "archive_sha256": "sha256:eec482e43dec3cfd44e007483042352dfc983b61d604c522a9389e6e0d73db00",
+      "archive_sha256": "sha256:0f32126a32735eafbce5be72ddd4772f21c06d43c44204aec22ca9aad0aef14f",
       "context_fingerprint": "sha256:e418c3dc3597db655181e26140cb03dd0889601bfc77cd4998bfb6b071feedab",
       "material_fingerprint": "sha256:683f2f6ffa1cf6719c8d23addd2a43baecdb470aae5243c6e697e05562c3739e",
       "architectures": [
@@ -90,7 +90,7 @@
       },
       "delivery": "published-image",
       "validation": "manifest+architecture-images+configured-CI",
-      "publisher_run_id": "43519946183",
+      "publisher_run_id": "44234334342",
       "channel": "stable"
     }
   }
